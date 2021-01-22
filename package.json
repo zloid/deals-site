@@ -1,0 +1,19 @@
+{
+  "name": "deals-site",
+  "version": "0.1.0",
+  "description": "html + css + js from psd template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zloid/deals-site.git"
+  },
+  "author": "zloid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zloid/deals-site/issues"
+  },
+  "homepage": "https://zloid.github.io/deals-site"
+}
