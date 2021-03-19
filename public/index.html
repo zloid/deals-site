@@ -4,43 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>Deals Website - 25.02.18 (+ 10 days)</title>
+    <title>Deals Website</title>
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
-        <header>
-            <a href="/" class="logo"><img src="<%= require('./assets/logo-top-2.png') %>" alt="header logo"></a>
+        <header class="main-header">
+            <a href="#" class="main-header__logo">
+                <img src="<%= require('./assets/logo-top-2.png') %>" alt="header-logo" />
+            </a>
 
-            <div class="cart"><a href="#"><img src="<%= require('./assets/cart-logo.png') %>" alt="cart logo"></a><span
-                    class="cart-value">$</span><span id="cart-count">521</span><span class="btn"><button type="submit"
-                        name="cart-button">Checkout</button></span></div>
+            <div class="main-header__cart-logo">
+                <a class="main-header__cart-logo-link" href="#">
+                    <img src="<%= require('./assets/cart-logo.png') %>" alt="cart-logo" />
+                </a>
+                <span class="main-header__cart-value">$</span><span class="main-header__cart-count">521</span>
+                <button class="main-header__btn-checkout">
+                    Checkout
+                </button>
+            </div><!-- // .main-header__cart-logo -->
 
-            <div class="sigin-in"><a href="#">Sigin in</a><span class="sigin-in-border"></span><a href="#">Sign up</a>
-            </div>
+            <div class="main-header__sigin-in">
+                <a class="main-header__sigin-in-link" href="#">Sigin in</a><span
+                    class="main-header__sigin-in-border"></span><a class="main-header__sigin-in-link" href="#">Sign
+                    up</a>
+            </div><!-- // .main-header__sigin-in -->
 
-            <nav>
-                <ul class="top-menu">
-                    <li><a href="#">Hot Deals</a></li>
-                    <li><a class="active" href="#">Deal of the day</a></li>
-                    <li><a href="#">Most recent</a></li>
+            <nav class="main-header__nav">
+                <ul class="main-header__nav-top-menu">
+                    <li class="main-header__nav-item"><a class="main-header__nav-link" href="#">Hot Deals</a></li>
+                    <li class="main-header__nav-item"><a class="main-header__nav-link--active" href="#">Deal of the
+                            day</a></li>
+                    <li class="main-header__nav-item"><a class="main-header__nav-link" href="#">Most recent</a></li>
                 </ul>
-            </nav>
+            </nav><!-- // .main-header__nav -->
 
-            <img class="select-img-right" src="<%= require('./assets/select-marker.png') %>" alt="select marker">
-
-            <span class="select-mrkr">
-                <select name="select-city">
-                    <option value="Select your city">Select your city</option>
-                    <option value="Katowice">Katowice</option>
-                    <option value="NY">NY</option>
-                    <option value="LA">LA</option>
-                    <option value="Minsk">Minsk</option>
+            <span class="main-header__select">
+                <img class="main-header__select-img-right" src="<%= require('./assets/select-marker.png') %>"
+                    alt="select-marker" />
+                <select class="main-header__select-city" name="select-city">
+                    <option class="main-header__select-city__option" value="Select your city">Select your city</option>
+                    <option class="main-header__select-city__option" value="Katowice">Katowice</option>
+                    <option class="main-header__select-city__option" value="NY">NY</option>
+                    <option class="main-header__select-city__option" value="LA">LA</option>
+                    <option class="main-header__select-city__option" value="Minsk">Minsk</option>
                 </select>
-            </span>
-
-        </header>
+            </span><!-- // .main-header__select -->
+        </header><!-- // .main-header -->
 
         <aside class="left-aside">
             <span class="top-left-aside-back"></span>
@@ -308,7 +319,7 @@
             </span>
             <!-- </div> -->
         </footer>
-    </div>
+    </div><!-- // .wrapper -->
 
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-aYW2OphSAoRgond2AcABvnvRBS9Rrt8&callback=initMap">
