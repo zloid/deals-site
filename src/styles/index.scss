@@ -2,6 +2,7 @@
 @import 'variables.scss';
 @import 'main-header.scss';
 @import 'left-aside.scss';
+@import 'middle-section.scss';
 
 * {
     margin: 0;
@@ -9,77 +10,8 @@
     // outline: 1px solid gold;
 }
 
-section {
-    max-width: 520px;
-    min-height: 1023px;
-    background: #fff;
-    border-right: 1px solid #dddddd;
-    float: left;
-}
-
-.sec {
-}
-
 figure {
     margin: 0 26px;
-}
-
-.phone {
-    overflow: hidden;
-    margin-bottom: 0px;
-}
-
-.phone img {
-    width: 248px;
-    height: 169px;
-}
-
-.phone figure {
-    float: left;
-    margin-right: 18px;
-}
-
-.phone h3 {
-    font: 17px/17px HelveticaCE, sans-serif;
-    color: #696969;
-}
-
-.phone-numb {
-    font: bold 26px/26px HelveticaCE, sans-serif;
-    display: block;
-    color: #2e2b2b;
-    margin-top: 8px;
-}
-
-.adress-2 {
-    margin-top: 22px;
-}
-
-.adress-2 h3 {
-    margin-right: 113px;
-    text-align: right;
-}
-
-.adress-2 p:before {
-    content: '';
-    background: url(../../public/assets/adress-mark.png) no-repeat;
-    width: 44px;
-    height: 70px;
-    float: left;
-    margin: -12px 10px 0 0;
-}
-
-.adress-2 img {
-    width: 44px;
-    height: 70px;
-    float: left;
-    margin: 16px 12px 0 0;
-}
-
-.adress-2 p {
-    margin: 10px 0 11px 0;
-    line-height: 20px;
-    text-align: left;
 }
 
 .right-aside {

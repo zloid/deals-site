@@ -1,0 +1,56 @@
+.middle-section {
+    max-width: 520px;
+    min-height: 1023px;
+    background: #fff;
+    border-right: 1px solid #dddddd;
+    float: left;
+
+    &__phone {
+        overflow: hidden;
+        margin-bottom: 0px;
+
+        &-figure {
+            float: left;
+            margin-right: 18px;
+        }
+        &-pic {
+            width: 248px;
+            height: 169px;
+        }
+        &-heading {
+            font: 17px/17px HelveticaCE, sans-serif;
+            color: #696969;
+        }
+        &-numb {
+            font: bold 26px/26px HelveticaCE, sans-serif;
+            display: block;
+            color: #2e2b2b;
+            margin-top: 8px;
+        }
+    }
+
+    &__adress-2 {
+        margin-top: 22px;
+
+        &__h3 {
+            font: 17px HelveticaCE, sans-serif;
+            color: #696969;
+            margin-right: 113px;
+            text-align: right;
+        }
+        &__paragraph {
+            margin: 10px 0 11px 0;
+            line-height: 20px;
+            text-align: left;
+
+            &::before {
+                content: '';
+                background: url(../../public/assets/adress-mark.png) no-repeat;
+                width: 44px;
+                height: 70px;
+                float: left;
+                margin: -12px 10px 0 0;
+            }
+        }
+    }
+}
