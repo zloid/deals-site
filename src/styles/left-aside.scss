@@ -1,0 +1,121 @@
+.left-aside {
+    float: left;
+    width: 290px;
+    color: #fff;
+
+    &__top-left-aside-back {
+        position: absolute;
+        background: #195a9e;
+        width: 290px;
+        height: 488px;
+        display: block;
+        margin-left: 7px;
+        z-index: -2021;
+    }
+
+    &__top-left-aside {
+        width: 347px;
+        height: 488px;
+        color: #fff;
+        background: url(../../public/assets/left-aside-top.png) no-repeat;
+        margin-left: -57px;
+        position: absolute;
+        z-index: -1000;
+    }
+
+    &__value {
+        display: block;
+        width: 290px;
+        font: 17px/17px HelveticaCE, sans-serif;
+        color: #fff;
+        word-spacing: 45px;
+        padding: 20px 0 0 22px;
+    }
+
+    &__value-2 {
+        display: block;
+        width: 290px;
+        font: 30px/30px HelveticaCE, sans-serif;
+        font-weight: bold;
+        color: #fff;
+        word-spacing: 27px;
+        padding: 5px 0 0 22px;
+    }
+
+    &__time-left {
+        display: block;
+        font: 17px/13px HelveticaCE, sans-serif;
+        margin: 34px 0 0 60px;
+    }
+
+    &__time-left-2 {
+        display: block;
+        font: bold 30px/26px Exo, sans-serif;
+        margin: 12px 0 0 60px;
+    }
+
+    &__days-hrs {
+        display: block;
+        font: 15px/11px HelveticaCE, sans-serif;
+        margin: 20px 0 0 64px;
+        word-spacing: 22px;
+    }
+
+    &__sec {
+        margin-left: 4px;
+    }
+
+    &__big-cash {
+        display: block;
+        font: bold 61px/57px HelveticaCE, sans-serif;
+        margin: 29px 0 0 50px;
+    }
+
+    &__buy-now-link {
+        display: block;
+        width: 207px;
+        height: 50px;
+        font: bold 30px/26px HelveticaCE, sans-serif;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        margin: 46px 0 0 43px;
+        background: none;
+        border: none;
+        color: #fff;
+
+        &:hover {
+            background: #1e5795;
+            border: none;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    &__recommend {
+        display: block;
+        font: 17px/17px HelveticaCE, sans-serif;
+        margin: 30px 0 0 50px;
+    }
+
+    &__social {
+        word-spacing: 14px;
+        margin: 16px 0 0 75px;
+    }
+
+    &__fb-likes {
+        width: 280px;
+        height: 256px;
+        background: #fff url(../../public/assets/fb-likes.jpg) no-repeat center
+            center;
+        margin: 0px 0 0 14px;
+    }
+}
+
+#map {
+    height: 282px;
+    width: 274px;
+    border: 1px solid #a3a3a3;
+    border-top: none;
+    margin: 23px 0 0 14px;
+}

@@ -42,6 +42,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './public/index.html'),
+            inject: 'body',
         }),
         new MiniCssExtractPlugin({
             filename: 'styles.[hash:6].css',
