@@ -1,0 +1,21 @@
+.footer-main {
+    width: 1070px;
+    overflow: hidden;
+    display: inline-block;
+    color: #fff;
+    margin: 0;
+    font: 13px/13px HelveticaCE, sans-serif;
+
+    &__copyright {
+        display: inline-block;
+        padding: 22px 0 20px 410px;
+        margin: 0;
+        font: 13px HelveticaCE, sans-serif;
+    }
+
+    &__social {
+        float: right;
+        word-spacing: 4px;
+        margin-top: 22px;
+    }
+}

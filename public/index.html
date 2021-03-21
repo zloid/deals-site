@@ -125,7 +125,7 @@
                 <div class="middle-section__adress-2">
                     <h3 class="middle-section__adress-2__h3">Address</h3>
                     <p class="middle-section__adress-2__paragraph">Lorem Ipsum is simply Dummy text of the printing And
-                        typesett simply.</p>
+                        typesett simply. Lorem Ipsum is simply.</p>
                 </div><!-- // .middle-section__adress-2 -->
             </div><!-- // .middle-section__phone -->
 
@@ -294,19 +294,22 @@
             </div>
         </aside><!-- // .right-aside -->
 
-        <footer>
+        <footer class="footer-main">
             <!-- <div  class="footer-bottom">  -->
-            <p>© 2012 -
-                <script>document.write(new Date().getFullYear())</script> Deals Designed by cssauthor.com
+            <p class="footer-main__copyright">© 2012 -
+                <script>document.write(' ' + new Date().getFullYear() + ' ')</script> Deals Designed by cssauthor.com
             </p>
-            <span class="social-footer">
-                <a href="#"><img src="<%= require('./assets/soc-foot-fb.png') %>" alt="facebook"></a>
-                <a href="#"><img src="<%= require('./assets/soc-foot-tweet.png') %>" alt="tweeter"></a>
-                <a href="#"><img src="<%= require('./assets/soc-foot-yahoo.png') %>" alt="yahoo!"></a>
+            <span class="footer-main__social">
+                <a href="#"><img src="<%= require('./assets/soc-foot-fb.png') %>" alt="facebook">
+                </a>
+                <a href="#"><img src="<%= require('./assets/soc-foot-tweet.png') %>" alt="tweeter">
+                </a>
+                <a href="#"><img src="<%= require('./assets/soc-foot-yahoo.png') %>" alt="yahoo!">
+                </a>
                 <a href="#"><img src="<%= require('./assets/soc-foot-ytube.png') %>" alt="youtube"></a>
             </span>
             <!-- </div> -->
-        </footer>
+        </footer><!-- // .footer-main -->
     </div><!-- // .wrapper -->
 
     <script async

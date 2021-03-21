@@ -4,34 +4,11 @@
 @import 'left-aside.scss';
 @import 'middle-section.scss';
 @import 'right-aside.scss';
+@import 'footer-main.scss';
 
 * {
     margin: 0;
     padding: 0;
-    // outline: 1px solid gold;
-}
-
-figure {
-    margin: 0 26px;
-}
-
-footer {
-    width: 1070px;
-    overflow: hidden;
-}
-
-footer p {
-    display: inline-block;
-    color: #fff;
-    padding: 22px 0 20px 410px;
-    margin: 0;
-    font: 13px/13px HelveticaCE, sans-serif;
-}
-
-.social-footer {
-    float: right;
-    word-spacing: 4px;
-    margin-top: 12px;
 }
 
 body {
@@ -40,20 +17,11 @@ body {
     color: #5e5e5e;
 }
 
-h1 {
-    font: bold 26px/26px HelveticaNeueCE, sans-serif;
-    color: #195390;
-    padding: 33px 26px 10px 26px;
-}
-
-p {
-    margin: 26px;
-    line-height: 20px;
-    color: #5e5e5e;
-    text-align: justify;
-}
-
 .wrapper {
     max-width: 1069px;
     margin: 0 auto;
+}
+
+figure {
+    margin: 0 26px;
 }
