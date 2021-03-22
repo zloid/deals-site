@@ -3,6 +3,10 @@
     width: 290px;
     color: #fff;
 
+    @include media('<large-desktop') {
+        height: 1px;
+    }
+
     &__top-left-aside-back {
         position: absolute;
         background: #195a9e;
@@ -21,6 +25,10 @@
         margin-left: -57px;
         position: absolute;
         z-index: -1000;
+
+        @include media('<large-desktop') {
+            display: none;
+        }
     }
 
     &__value {
@@ -110,12 +118,16 @@
             center;
         margin: 0px 0 0 14px;
     }
-}
 
-#map {
-    height: 282px;
-    width: 274px;
-    border: 1px solid #a3a3a3;
-    border-top: none;
-    margin: 23px 0 0 14px;
+    #map {
+        height: 282px;
+        width: 274px;
+        border: 1px solid #a3a3a3;
+        border-top: none;
+        margin: 23px 0 0 14px;
+
+        @include media('<large-desktop') {
+            display: none;
+        }
+    }
 }

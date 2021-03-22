@@ -15,6 +15,10 @@ body {
     background: #10447b !important;
     font: 13px HelveticaCE, sans-serif;
     color: #5e5e5e;
+
+    @include media('<desktop') {
+        font: 20px HelveticaCE, sans-serif;
+    }
 }
 
 .wrapper {

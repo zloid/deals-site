@@ -50,6 +50,12 @@
     &__sigin-in {
         float: right;
         margin: 0 245px 0 0;
+
+        @include media('<large-desktop') {
+            float: none;
+            position: absolute;
+            margin-top: 10px;
+        }
     }
 
     &__sigin-in-link {
@@ -78,6 +84,10 @@
         float: left;
         margin: 0 0 0 290px;
         width: 412px;
+
+        @include media('<desktop') {
+            margin-top: 50px;
+        }
     }
 
     &__nav-item {
@@ -114,6 +124,10 @@
         position: absolute;
         margin: 18px 0 0 230px;
         z-index: -1;
+
+        @include media('<desktop') {
+            display: none;
+        }
     }
 
     &__select-city {
@@ -128,6 +142,10 @@
         -moz-appearance: none;
         -webkit-appearance: none;
         appearance: none;
+
+        @include media('<desktop') {
+            display: none;
+        }
 
         &__option {
             background: #3275bc;

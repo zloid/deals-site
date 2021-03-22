@@ -5,6 +5,11 @@
     border-right: 1px solid #dddddd;
     float: left;
 
+    @include media('<large-desktop') {
+        max-width: 1920px;
+        width: 100%;
+    }
+
     &__phone {
         overflow: hidden;
         margin-bottom: -20px;

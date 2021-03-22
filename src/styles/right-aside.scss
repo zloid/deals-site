@@ -6,6 +6,10 @@
     // background: #fff url(../../public/assets/aside-right-top.jpg) no-repeat;
     overflow: hidden;
 
+    @include media('<large-desktop') {
+        width: 100%;
+    }
+
     &__heading-two {
         font: bold 22px/22px HelveticaCE, sans-serif;
         color: #195390;
